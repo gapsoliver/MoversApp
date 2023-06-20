@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "610730352457",
+    "firebase_url": "https://movers-transport-app-default-rtdb.firebaseio.com",
+    "project_id": "movers-transport-app",
+    "storage_bucket": "movers-transport-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610730352457:android:1efbbe37f4761415a7c498",
+        "android_client_info": {
+          "package_name": "com.example.moverstransportapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610730352457-3ecmhgh2lvrpu4hbilh2t5men6lo89m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF_Kq_PhaysyWR5uJVfpeN1vPwHOAPkIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610730352457-3ecmhgh2lvrpu4hbilh2t5men6lo89m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

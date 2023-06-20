@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bus">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageView"
+        android:layout_width="223dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/bustiket" />
+
+    <TextView
+        android:layout_marginBottom="45dp"
+        android:id="@+id/tBtnView1"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#2196F3"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TRANSPORT MOVERS" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:id="@+id/tBtnView2"
+        android:layout_width="500dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:text="TextView"
+        android:textColor="#D68F14"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:text="Travel with style and enjoy your ride" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:id="@+id/mBtnEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="85dp"
+        android:text="Login Via Google"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tBtnView2" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:id="@+id/mBtnGoogle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="18dp"
+        android:text="Login Via Email Adress"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnEmail" />
+
+    <TextView
+        android:layout_marginTop="500dp"
+        android:id="@+id/tBtnVew3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="200dp"
+        android:text="TextView"
+        android:textColor="#817D28"
+        android:textSize="21dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnGoogle"
+        tools:text="Dont have an Account? Create here" />
+</RelativeLayout>
